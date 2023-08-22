@@ -10,10 +10,8 @@
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            clifford: '##F85559',
-            fruit: '#F85559',
-
+          backgroundImage: {
+            'client-bg': "url('./images/banner1.png')"
           }
         }
       }
@@ -46,9 +44,10 @@
       <div class="  lg:justify-center flex-row-reverse px-5  ">
         <div class="dropdown dropdown-end ml-12">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
-           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
           </label>
           <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li><a>Home</a></li>
@@ -142,7 +141,7 @@
     <section>
       <div class="flex lg:justify-between flex-col lg:flex-row  items-center gap-5 lg:gap-0">
         <div class="flex-1 max-w-[615px] text-center lg:text-left">
-          <h1 class="text-[#121212] text-5xl font-extrabold"> Deal of The Day </h1>
+          <h1 class="text-[#121212] lg:text-5xl text-2xl font-extrabold"> Deal of The Day </h1>
           <p class="text-[#12121299 font-medium]">Contrary to popular belief, is not simply random text. It has roots in
             a
             piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -387,7 +386,66 @@
           All</button></div>
     </section>
 
+    <!-- team section -->
+    <div class="min-h-[690px] bg-cover lg:mt-36 mt-6" style="background-image: url(./images/banner1.png);
+   ">
+      <div class="text-center max-w-[615px] mx-auto space-y-6 lg:pt-[120px] pt-6">
+        <h1 class="lg:text-5xl text-2xl font-extrabold text-white ">Meet The Team </h1>
+        <p class=" text-lg font-medium text-white">Contrary to popular belief, is not simply random text. It has roots
+          in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <!-- Grid -->
 
+      <div class="grid lg:grid-cols-4 grid-cols-1 lg:px-60 mt-12 gap-6 lg:gap-0">
+
+        <div class="space-y-5"><img class="mx-auto" src="./images/member1.png" alt="">
+          <div class="text-center ">
+            <h3 class="text-2xl font-bold text-white">Awlad hossain</h3>
+            <p class=" font-medium text-white">Fruit Expert</p>
+            <div class="flex justify-center gap-3">
+              <img src="./icons/facebook 1.svg" alt="">
+              <img src="./icons/twitter (1) 1.svg " alt="">
+              <img src="./icons/linkedin 1.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="space-y-5"><img class="mx-auto" src="./images/member2.png" alt="">
+          <div class="text-center ">
+            <h3 class="text-2xl font-bold text-white">Shafia chowdhury</h3>
+            <p class=" font-medium text-white">Fruit Expert</p>
+            <div class="flex justify-center gap-3">
+              <img src="./icons/facebook 1.svg" alt="">
+              <img src="./icons/twitter (1) 1.svg " alt="">
+              <img src="./icons/linkedin 1.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="space-y-5"><img class="mx-auto" src="./images/member3.png" alt="">
+          <div class="text-center ">
+            <h3 class="text-2xl font-bold text-white">rokib hossain</h3>
+            <p class=" font-medium text-white">Fruit Expert</p>
+            <div class="flex justify-center gap-3">
+              <img src="./icons/facebook 1.svg" alt="">
+              <img src="./icons/twitter (1) 1.svg " alt="">
+              <img src="./icons/linkedin 1.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="space-y-5"><img class="mx-auto" src="./images/member4.png" alt="">
+          <div class="text-center ">
+            <h3 class="text-2xl font-bold text-white">chaity</h3>
+            <p class=" font-medium text-white">Fruit Expert</p>
+            <div class="flex justify-center gap-3">
+              <img src="./icons/facebook 1.svg" alt="">
+              <img src="./icons/twitter (1) 1.svg " alt="">
+              <img src="./icons/linkedin 1.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
 
   </main>
 
